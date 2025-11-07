@@ -16,11 +16,23 @@
 
         a:active {font-weight: bold;color: orange;
         text-shadow: 3px 3px 5px black;}
+
+     #boton-borde {font-family: 'Times New Roman', Times, serif;font-size: 3em;
+    padding: 20px;border-radius: 20px;}
+
+    #boton-borde:link {background-color: green;color: red;}
+
+    #boton-borde:hover {background-color: red;color: yellow;
+    font-weight: bolder;}
+
+    #boton-borde:active {background-color:blue;
+    color: white;font-style: italic;}
+
     </style>
 </head>
 <body>
     <h1>Propiedades de los enlaces</h1>
     <a href="https://www.iesjuanbosco.es">Contacto</a>
-    <a href="bordes.html">Ir a bordes</a>
+    <a id="boton-borde" href="bordes.html">Ir a bordes</a>
 </body>
 </html>
